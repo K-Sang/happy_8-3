@@ -3,7 +3,7 @@ onload = () => {
   const c = setTimeout(() => {
     document.body.classList.remove("not-loaded");
 
-    const titles = ('Chúc các chị em mãi hạnh phúc và được yêu thương. Cảm ơn vì đã như những bông hoa rực rỡ, góp phần làm cho thế giới này thêm muôn màu! (〜￣▽￣)〜').split('')
+    const titles = ('Chúc các chị em mãi hạnh phúc và được yêu thương. Cảm ơn vì đã như những bông hoa rực rỡ, góp phần cho thế giới thêm muôn màu! (〜￣▽￣)〜').split('')
     const titleElement = document.getElementById('title');
     let index = 0;
 
